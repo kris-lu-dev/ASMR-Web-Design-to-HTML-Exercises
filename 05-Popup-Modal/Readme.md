@@ -1,6 +1,10 @@
 # Popup Modal
 
+<<<<<<< HEAD
 🔗 Demo link: [Github Page](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/05-Popup-Modal/)
+=======
+🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/05-Popup-Modal/) \| [Note]()
+>>>>>>> dev
 
 | Mobile                                          | Desktop                                  |
 | ----------------------------------------------- | ---------------------------------------- |
