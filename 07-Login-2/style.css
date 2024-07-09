@@ -1,0 +1,156 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0 24px;
+    background-color: #da99ff;
+    background-image:
+        radial-gradient(at 88% 0%, hsla(327, 67%, 64%, 1) 0px, transparent 50%),
+        radial-gradient(at 63% 46%, hsla(307, 76%, 61%, 1) 0px, transparent 50%),
+        radial-gradient(at 95% 53%, hsla(89, 91%, 67%, 1) 0px, transparent 50%),
+        radial-gradient(at 79% 83%, hsla(170, 86%, 65%, 1) 0px, transparent 50%),
+        radial-gradient(at 74% 93%, hsla(71, 93%, 75%, 1) 0px, transparent 50%),
+        radial-gradient(at 52% 13%, hsla(110, 83%, 72%, 1) 0px, transparent 50%),
+        radial-gradient(at 30% 80%, hsla(263, 79%, 66%, 1) 0px, transparent 50%);
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #000;
+}
+
+.card {
+
+    /* example approach */
+    /* position: fixed;
+    z-index: 3;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%; 
+    text-align: center; */
+
+    /* my approach */
+    display: grid;
+    place-items: center;
+
+    width: 90%;
+    padding: 70px 30px 44px;
+    border: none;
+    border-radius: 1.25rem;
+    background-color: #fff;
+}
+
+.card img {
+    width: 120px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.card span {
+    display: block;
+    color: rgba(0, 0, 0, 0.38);
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.card h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.card form {
+    display: grid;
+    place-items: center;
+    gap: 30px;
+    width: 100%;
+}
+
+.card form input,
+.card form button {
+    height: 56px;
+    outline: none;
+    /* padding: 0; */
+    font-family: inherit;
+}
+
+.card input {
+    /* width: 80%; */
+    width: 240px;
+    background: transparent;
+    border: 2px solid transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    padding: 0;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.card input:hover {
+    border-bottom: 2px solid #303f9f;
+}
+
+.card input:focus {
+    border-bottom: 2px solid #1976d2;
+}
+
+.card button {
+    cursor: pointer;
+    width: 100%;
+    background: #303f9f;
+    border: none;
+    border-radius: 10px;
+    background-color: #333F99;
+    color: #f9f9f9;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3px;
+}
+
+.card button:hover {
+    background-color: #1976d2;
+}
+
+.card a {
+    color: #303f9f;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.card a:hover {
+    color: #1976d2;
+}
+
+@media (width >=450px) {
+    .card {
+        width: 380px;
+    }
+
+}
+
+/* @media (width >=500px) {
+
+    body {
+        padding: 0;
+    }
+} */
+
+/* @media(width >=1200px) {
+    .card {
+        width: 25%;
+    }
+} */

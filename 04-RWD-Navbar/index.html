@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>04 | RWD Navbar</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <!-- A mask layer on top when navbar open. -->
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+        <button class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">menu</span>
+        </button>
+
+        <div class="navbar-title">AsmrProg</div>
+        <nav class="navbar-menu">
+            <button class="active">Youtube</button>
+            <button class="active">Archive</button>
+            <button>Projects</button>
+        </nav>
+    </nav>
+
+</body>
+
+
+<script type="text/javascript">
+    const toggleMenuOpen = () => document.body.classList.toggle("open");
+</script>
+
+</html>
