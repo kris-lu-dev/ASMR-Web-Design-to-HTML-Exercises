@@ -1,0 +1,165 @@
+:root {}
+
+* {
+    /* outline: auto; */
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    color: #262626;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: grid;
+    width: 250px;
+    height: 100%;
+    padding: 30px 0;
+    background-color: #fff;
+    border-right: 1px solid #dbdbdb;
+    transition: 0.3s;
+}
+
+.sidebar i {
+    font-size: 28px;
+}
+
+.sidebar-inner {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sidebar-header {
+    height: 60px;
+    margin-bottom: 40px;
+}
+
+.sidebar-header,
+.sidebar-menu li {
+    padding: 12px;
+}
+
+.sidebar-header>*,
+.sidebar-menu li>* {
+    display: inline-block;
+    vertical-align: middle;
+    /* Vertically aligns items */
+}
+
+.logo-icon {
+    display: none;
+    height: 35px;
+    text-align: center;
+}
+
+.logo-img {
+    height: 32px;
+    margin-left: 8px;
+}
+
+.sidebar-menu {
+    flex: 1 1 auto;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.sidebar-menu li {
+    background: transparent;
+    border: 0;
+    border-radius: 24px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.sidebar-menu li:hover {
+    background-color: #f2f2f2;
+}
+
+.sidebar-menu li i,
+.sidebar-menu li img {
+    margin: 0 8px;
+}
+
+.sidebar-menu li i {
+    position: relative;
+}
+
+.sidebar-menu li i>span {
+    display: grid;
+    place-items: center;
+    height: 20px;
+    padding: 0 4px;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    border: 1px solid #fff;
+    background: #ff2f40;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+}
+
+.sidebar-menu li i>em {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #ff2f40;
+    position: absolute;
+    border-radius: 10px;
+    top: 2px;
+    right: -1px;
+    border: 1px solid #fff;
+    color: #f9f9f9;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+}
+
+.sidebar-menu li span {
+    font-size: 17px;
+}
+
+.sidebar-menu li>img {
+    width: 28px;
+}
+
+.sidebar-menu li:last-child {
+    margin-top: auto;
+}
+
+@media (width <500px) {
+    .sidebar {
+        width: 72px;
+    }
+
+    .logo-icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .sidebar-menu li {
+        margin: 0 auto;
+        width: 50px;
+    }
+
+    .sidebar-menu li i,
+    .sidebar-menu li img {
+        margin: 0 auto;
+    }
+
+    .sidebar-menu li span {
+        display: none;
+    }
+}
