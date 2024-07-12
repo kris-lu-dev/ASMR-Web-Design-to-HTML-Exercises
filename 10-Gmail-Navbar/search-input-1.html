@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search-input-1</title>
+    <style>
+        * {
+            /* outline: auto; */
+        }
+
+        /***************\
+            Example #1
+        \***************/
+        .search-container {
+            display: flex;
+            /* Align items horizontally */
+            align-items: center;
+            /* Center vertically */
+            border: 1px solid #ccc;
+            /* Add a border */
+            border-radius: 5px;
+            /* Round the corners */
+            padding: 8px;
+            /* Add padding for spacing */
+        }
+
+        #search-input {
+            flex: 1;
+            /* Take up available space */
+            border: none;
+            /* Remove default input border */
+            outline: none;
+            /* Remove focus outline */
+            padding: 0;
+            /* Remove default input padding */
+        }
+
+        .search-icon {
+            margin-left: 8px;
+            /* Add space between icon and input */
+        }
+
+
+        /***************\
+            Example #2
+        \***************/
+        #search-bar {
+            flex: 1;
+            /* Make the input field take up available space */
+            border: none;
+            padding: 0;
+            /* Remove default padding */
+            outline: none;
+            /* Remove focus outline */
+        }
+
+        #search-btn {
+            background: none;
+            /* Remove default background */
+            border: none;
+            cursor: pointer;
+            padding: 0 8px;
+            /* Add some padding around the icon */
+        }
+    </style>
+</head>
+
+<body>
+    Example #1
+    <div class="search-container">
+        <input type="search" id="search-input" placeholder="Search...">
+        <span class="search-icon">🔍</span>
+    </div>
+    Example #2
+    <div class="search-container">
+        <input type="search" id="search-bar" placeholder="Search..." aria-label="Search">
+        <button type="button" id="search-btn" aria-label="Submit search">
+            <span class="search-icon">🔍</span> </button>
+    </div>
+
+
+</body>
+
+</html>

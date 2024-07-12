@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <title>10 | Gmail Navbar</title>
+</head>
+
+<body>
+
+    <!-- Hamburger Menu -->
+    <div class="icon-btn hamburger-menu">
+        <span onclick="toggleMenu()" class="material-symbols-outlined">menu</span>
+    </div>
+
+
+    <nav class="navbar">
+        <!-- Gmail Logo -->
+        <div class="gmail-logo">
+            <img src="logo.svg" alt=""><span>Gmail</span>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <div class="search-container">
+                <span class="search-icon material-symbols-outlined">search</span>
+                <input type="search" id="search-input" placeholder="Search Mail">
+            </div>
+        </div>
+
+        <!-- Icons -->
+        <div class="icons">
+            <div id="help-icon" class="icon-btn">
+                <span class="material-symbols-outlined">help</span>
+            </div>
+            <div id="settings-icon" class="icon-btn">
+                <span class="material-symbols-outlined">settings</span>
+            </div>
+            <div id="apps-icon" class="icon-btn">
+                <span class="material-symbols-outlined">apps</span>
+            </div>
+            <div id="account-icon" class="icon-btn">
+                <img src="logo.png">
+            </div>
+        </div>
+    </nav>
+
+    <script type="text/javascript">
+        const toggleMenu = () => document.body.classList.toggle("open");
+    </script>
+</body>
+
+</html>
