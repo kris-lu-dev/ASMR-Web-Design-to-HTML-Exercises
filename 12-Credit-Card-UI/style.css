@@ -1,0 +1,104 @@
+/*------------------------------------*\
+   $FONT-FACE & ROOT
+\*------------------------------------*/
+:root {
+
+   --font-family: "Segoe UI", sans-serif;
+   --card-height: 204px;
+   --text-color: #fff;
+}
+
+/*------------------------------------*\
+   $ELEMENTS
+\*------------------------------------*/
+
+html {
+   height: 100vh;
+}
+
+body {
+   height: 100%;
+   align-content: center;
+   font-family: var(--font-family);
+}
+
+input[type="text"] {
+   border: none;
+   outline: none;
+   background-color: transparent;
+   color: var(--text-color);
+}
+
+input[type="text"]::placeholder {
+   color: var(--text-color);
+}
+
+/*------------------------------------*\
+   $Components
+\*------------------------------------*/
+
+.card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+
+   height: var(--card-height);
+   width: calc(var(--card-height) * 1.586);
+   margin-inline: auto;
+   padding: 12px;
+
+   border-radius: 14px;
+   background-color: #171a1c;
+   color: var(--text-color);
+}
+
+.card__header {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+
+   margin-bottom: 1.5rem;
+}
+
+.card__title {
+   font-size: 1.1rem;
+}
+
+.card__logo {
+   width: 40%;
+}
+
+.card__number input[type="text"] {
+   width: 80%;
+   font-size: 1.5rem;
+}
+
+.card__detail {
+   display: flex;
+   justify-content: space-between;
+   gap: 1rem;
+}
+
+.card__detail input[type="text"] {
+   width: 2.5rem;
+   font-size: 0.9rem;
+}
+
+.card__detail > div:last-child {
+   margin-inline-start: auto;
+}
+
+.input__wrapper {
+   display: grid;
+}
+
+.input__wrapper label {
+   width: fit-content;
+   font-size: 12px;
+   font-weight: 500;
+}
+
+.input__wrapper input {
+   font-size: 12px;
+   font-weight: 500;
+}
