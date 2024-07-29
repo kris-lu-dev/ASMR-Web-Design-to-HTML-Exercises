@@ -1,0 +1,135 @@
+/*------------------------------------*\
+   $FONT-FACE & ROOT
+\*------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*------------------------------------*\
+   $ELEMENTS
+\*------------------------------------*/
+
+body {
+   padding: 10px;
+   background-color: #78909c;
+   font-family: 'Ubuntu';
+}
+
+h1 {
+   margin: 20px 0 8px 30px;
+   color: #212121;
+}
+
+/*------------------------------------*\
+   $Components
+\*------------------------------------*/
+
+.list-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 12px;
+}
+
+.list {
+   max-width: 320px;
+   margin-top: 15px;
+}
+
+.list-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.list-header > i {
+   margin-right: 5px;
+   cursor: pointer;
+   color: #fff;
+}
+
+.list-header span {
+   margin-left: 5px;
+   padding: 3px 6px;
+   border-radius: 3px;
+   background-color: #fff;
+   color: #1976d2;
+}
+
+.list-item {
+   display: grid;
+   gap: 15px;
+}
+
+.card {
+   padding: 1rem;
+   background-color: #fff;
+   border-radius: 8px;
+   cursor: pointer;
+   transition: all 0.2s;
+}
+
+.card:hover {
+   transform: translateY(-3px);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.23);
+}
+
+.tag {
+   display: inline-block;
+   margin-block-end: 10px;
+   padding: 2px 6px;
+   border-radius: 4px;
+   font-size: 0.75rem;
+   font-weight: 700;
+   color: #fff;
+}
+
+.description {
+   margin-block-end: 10px;
+   font-size: 0.875rem;
+}
+
+.date {
+   font-size: 0.875rem;
+   color: #757575;
+}
+
+.date::before {
+   font: var(--fa-font-solid);
+   content: '\f073';
+   margin-inline-end: 4px;
+}
+
+.count-of-comment {
+   float: right;
+   font-size: 0.875rem;
+   color: #757575;
+}
+
+
+.count-of-comment::before {
+   font: var(--fa-font-solid);
+   content: '\f27a';
+   margin-inline-end: 4px;
+}
+
+/*------------------------------------*\
+   $Style Trumps
+\*------------------------------------*/
+
+.icon::before {
+   display: inline-block;
+   text-rendering: auto;
+   -webkit-font-smoothing: antialiased;
+}
+
+.bg-red {
+   background-color: #f44336;
+}
+
+.bg-green {
+   background-color: #4caf50;
+}
+
+.bg-yellow {
+   background-color: #fbc02d;
+}
