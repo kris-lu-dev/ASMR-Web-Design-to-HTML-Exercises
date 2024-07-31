@@ -1,6 +1,6 @@
 # Dot Pagination
 
-🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/11-Dot-Pagination) \| [Note]()
+🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/11-Dot-Pagination) 
 
 | Mobile                                          | Desktop                                  |
 | ----------------------------------------------- | ---------------------------------------- |

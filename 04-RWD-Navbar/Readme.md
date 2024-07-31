@@ -1,6 +1,6 @@
 # Responsive Navbar
 
-🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/04-RWD-Navbar/) \| [Note]()
+🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/04-RWD-Navbar/) 
 
 | Mobile                                          | Desktop                                  |
 | ----------------------------------------------- | ---------------------------------------- |

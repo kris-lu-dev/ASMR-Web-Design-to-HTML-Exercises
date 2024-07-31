@@ -3,7 +3,7 @@
 ### To-Do
 - A RWD bug need to be fixed.
 
-🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/10-Gmail-Navbar) \| [Note]()
+🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/10-Gmail-Navbar) 
 
 | Mobile                                          | Desktop                                  |
 | ----------------------------------------------- | ---------------------------------------- |

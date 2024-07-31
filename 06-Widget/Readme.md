@@ -1,6 +1,6 @@
 # Widget #1
 
-🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/06-Widget/) \| [Note]()
+🔗 [Demo](https://kris-lu-dev.github.io/ASMR-Web-Design-to-HTML-Exercises/06-Widget/) 
 
 | Mobile                                          | Desktop                                  |
 | ----------------------------------------------- | ---------------------------------------- |
